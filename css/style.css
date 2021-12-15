@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+  }
+ .nav{
+   display: flex;
+   flex-direction: column;
+   background-size: cover;
+   background-blend-mode: darken;
+   overflow: hidden;
+  background-color: rgb(134, 127, 236);
+  /*background: rgba(63, 136, 231, 0.7) url('../img/lib.jpg');*/
+  max-height: 200px;
+ }
+ .logo-img{
+   display: flex;
+   max-height: 150px;
+   width: 100%;
+   
+ }
+ .topnav {
+  overflow: hidden;
+  background-color: rgb(134, 127, 236);
+  /*background: rgba(63, 136, 231, 0.7) url('../img/lib.jpg');*/
+  display: flex;
+  justify-content: center;
+  min-height: 50px;
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+  width: 75px;
+}
+
+.topnav a:hover {
+  background-color: blue;
+  color: black;
+}
+
+/*_______________________*/
+.firstsection{
+  height: 80vh;
+}
+.background{
+  background: rgba(63, 136, 231, 0.7) url('../img/lib.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  background-blend-mode: darken;
+}
+
+.box-main{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  max-width: 70%;
+  margin: auto;
+  height: 80%;
+  flex-wrap: wrap;
+}
+.first-half{
+  /*width: 50%;
+  display: flex;
+  flex-direction: column;*/
+  width: 70%;
+  display: flex;
+  position: relative;
+  text-align: center;
+  color: white;
+  align-items: stretch;
+  justify-content: center;
+}
+.firsthalf{
+  /*width: 50%;
+  display: flex;
+  flex-direction: column;*/
+  width: 70%;
+  display: flex;
+  position: relative;
+  text-align: center;
+  color: white;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.firsthalf img{
+  padding-top: auto;
+  border-radius: 75px;
+  margin: auto;
+  transition: 0.5s all ease-in-out;
+  float: left;
+  width:  150px;
+  padding: 10px;
+  height: 100px;
+  background-size: cover;
+}
+.firsthalf img:hover{
+  transform: scale(1.5);
+}
+.secondhalf{
+      width: 70%;
+      position: relative;
+      text-align: center;
+      color: white; 
+      display: flex;
+      justify-content: center;
+} 
+.secondhalf img{
+      border-radius: 75px;
+      margin: auto;
+      transition: 0.5s all ease-in-out;
+      float: left;
+      width:  150px;
+      padding: 10px;
+      height: 100px;
+      background-size: cover;
+}
+.secondhalf img:hover{
+  transform: scale(1.5);
+}
+
+
+/*____________________________*/
+.background-book{
+  background: rgba(63, 136, 231, 0.7) url('');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  background-blend-mode: darken;
+}
+.first-half-book{
+  /*width: 50%;
+  display: flex;
+  flex-direction: column;*/
+  width: 70%;
+  display: flex;
+  position: relative;
+  text-align: center;
+  color: white;
+  align-items: stretch;
+  justify-content: center;
+  margin: auto;
+}
+.firsthalf-book{
+  /*width: 50%;
+  display: flex;
+  flex-direction: column;*/
+  width: 70%;
+  display: flex;
+  position: relative;
+  text-align: center;
+  color: white;
+  align-items: stretch;
+  justify-content: center;
+}
+.secondhalf-book{
+  width: 70%;
+  position: relative;
+  text-align: center;
+  color: white; 
+  display: flex;
+  justify-content: center;
+} 
+.box{
+display: flex;
+margin: auto;
+flex-wrap: wrap;
+justify-content: center;
+}
+.box-item{
+width: 300px;
+margin: 10px;
+border: 3px solid black;
+border-radius: 20px;
+background-color: blanchedalmond;
+display: flex;
+justify-content: center;
+align-items: end;
+flex-wrap: wrap;
+padding: 10px;
+}
+.box-item button{
+  display: block;
+  justify-content: right;
+  width: 50px;
+  height: 30px;
+}
+.box-item-a{
+  min-height: 400px;
+}
