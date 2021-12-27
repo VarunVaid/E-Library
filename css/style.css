@@ -322,6 +322,7 @@ iframe{
   padding-top: 20px;
   padding-bottom: 20px;
 }
+/*
 .box-items{
   justify-content: center;
   align-items: center;
@@ -337,9 +338,45 @@ iframe{
   text-decoration: none;
   color: #000000;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
+  padding-top: auto;
+  border-radius: 75px;
+  margin: auto;
+  transition: 0.5s all ease-in-out;
+  float: left;
+  width:  150px;
+  padding: 10px;
+  height: 100px;
+  background-size: cover;
+}*/
+.box-items{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 190px;
+  /* width: 280px; */
+  /* max-width: 320px; */
+  /* border: 3px solid black; */
+  /* border-radius: 20px; */
+  background: rgb(197 196 196 / 70%) url(../img/bg.jpg);
+  /* background-size: cover; */
+  background-blend-mode: darken;
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: auto;
+  border-radius: 20px;
+  /* margin: auto; */
+  transition: 0.5s all ease-in-out;
+  float: left;
+  width: 200px;
+  padding: 10px;
+  /* height: 100px; */
+  background-size: cover;
+  align-content: center;
 }
-
+.box-items:hover{
+  transform: scale(1.1);
+}
 /*_______________________*/
 
 
