@@ -298,20 +298,21 @@ iframe{
 
 /*_______________________*/
 .foot{
-  display: flex;
-  flex-direction: column;
-  background-size: cover;
-  background-blend-mode: darken;
-  overflow: hidden;
- background: rgba(0, 0, 0, 0.7) url('../img/lib.jpg');
+ display: flex;
+ flex-direction: column;
+ background-size: cover;
+ background-blend-mode: darken;
+ overflow: hidden;
+ background: rgba(0, 0, 0, 0.7) url(../img/lib.jpg);
  max-height: 200px;
- min-height: 30px;
+ min-height: 100px;
+ justify-content: center;
 }
  .foot h1{
   display: flex;
   justify-content: center;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 30px;
   color: #000000;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -320,7 +321,7 @@ iframe{
   justify-content: center;
   text-decoration: none;
   color: #000000;
-  font-size: 15px;
+  font-size: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
