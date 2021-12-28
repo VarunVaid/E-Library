@@ -193,7 +193,7 @@ button {
 /*____________________________*/
 .background-book{
   /*background: (63, 136, 231, 0.7) url('');*/
-  background: rgba(85, 108, 240, 0.7) url(../img/bg.jpg);
+  background: rgba(0, 0, 0, 0.7) url(../img/lib.jpg);
   background-size: cover;
   background-blend-mode: darken;
   background-repeat: no-repeat;
@@ -246,7 +246,7 @@ width: 300px;
 margin: 10px;
 border: 3px solid black;
 border-radius: 20px;
-background: rgba(0, 0, 0, 0.7) url(../img/bg.jpg);
+background: rgba(0, 0, 0, 0.7) url();
 background-size: cover;
 background-blend-mode: darken;
 }
@@ -264,9 +264,19 @@ background-blend-mode: darken;
 .box-item a{
 align-items: center;
 padding: 10px;
+text-decoration: none;
+}
+.box-item-a img{
+border-radius: 75px;
+      margin: auto;
+      float: left;
+      width:  100px;
+      padding: 10px;
+      height: 150px;
+      background-size: cover;
 }
 .box-item-a{
-  min-height: 400px;
+  min-height: 50px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -275,7 +285,6 @@ padding: 10px;
   padding: 10px;
   }
 .box-item-a p{
-  padding-bottom: 60%;
   color: white;
   justify-content: center;
   display: flex;
@@ -294,9 +303,9 @@ iframe{
   background-size: cover;
   background-blend-mode: darken;
   overflow: hidden;
- background-color: rgb(35, 25, 177);
- /*background: rgba(63, 136, 231, 0.7) url('../img/lib.jpg');*/
+ background: rgba(0, 0, 0, 0.7) url('../img/lib.jpg');
  max-height: 200px;
+ min-height: 30px;
 }
  .foot h1{
   display: flex;
