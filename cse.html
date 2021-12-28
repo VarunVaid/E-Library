@@ -6,19 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <title>Books</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
-    <nav class="nav">
-        <img class="logo-img" src="../img/logo.png">
-    </nav>
-
-    <div class="topnav">
-        <a href="http://crssietjhajjar.ac.in/">Home</a>
-        <a href="../index.html">E-Library</a>
-        <a href="../e-paper.html">E-paper</a>
-        <a href="../notes.html">Notes</a>
-        <a href="../upload.html">Upload</a>
-    </div>
+<div id="nav-placeholder">
+</div>
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
     <section class="background-book firstsection">
         <div class="first-half-book">    
             <h1>CSE Books</h1></div>
