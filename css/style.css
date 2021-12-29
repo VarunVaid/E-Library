@@ -270,9 +270,9 @@ text-decoration: none;
 .box-item-a img{
       margin: auto;
       float: left;
-      width:  100px;
+      width:  75px;
       padding: 10px;
-      height: 150px;
+      height: 100px;
       background-size: cover;
 }
 .box-item-a{
