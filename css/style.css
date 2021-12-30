@@ -120,6 +120,7 @@ button {
 /*_______________________*/
 .box-main{
   padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -140,6 +141,9 @@ button {
   justify-content: center;
   height: 100px;
   font-size: 27px;
+}
+.first-half h1{
+  color: whitesmoke;
 }
 .firsthalf{
   /*width: 50%;
@@ -639,3 +643,28 @@ iframe{
 /*_______________________*/
 
 
+#econtent {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#econtent td, .econtent th {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 8px;
+  color: #000000;
+}
+
+#econtent tr{background-color: #f2f2f2;}
+
+#econtent tr:hover {background-color: #ddd;}
+#econtent a{
+  text-decoration: none;
+}
+#econtent th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: black;
+}
