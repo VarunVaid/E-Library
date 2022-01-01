@@ -1,0 +1,26 @@
+    <nav class="nav">
+        <img class="logo-img" src="img/logo.png">
+    </nav>
+<div class="topnav" id="myTopnav">
+    <a href="http://crssietjhajjar.ac.in/">Home</a>
+    <a href="../index.html">E-Library</a>
+    <a href="../e-paper.html">E-paper</a>
+    <a href="../notes.html">Notes</a>
+    <a href="../upload.html">Upload</a>
+    <a href="../e-magazine.html">E-Magazine</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </a>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
