@@ -428,53 +428,96 @@
       </div>
 </body>
 </html>
-
-
+-->
 <!DOCTYPE html>
-<html>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>CSE Books</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
 <body>
-<div class="w3-container">
-  <h2>Tabs</h2>
-  <p>Tabs are perfect for single page web applications, or for web pages capable of displaying different subjects. Click on the links below.</p>
+<div id="nav-placeholder">
 </div>
-
-<div class="w3-bar w3-black">
-  <button class="w3-bar-item w3-button" onclick="ea('London')">London</button>
-  <button class="w3-bar-item w3-button" onclick="ea('Paris')">Paris</button>
-  <button class="w3-bar-item w3-button" onclick="ea('Tokyo')">Tokyo</button>
-</div>
-
-<div id="London" class="w3-container city">
-  <h2>London</h2>
-  <p>London is the capital city of England.</p>
-</div>
-
-<div id="Paris" class="w3-container city" style="display:none">
-  <h2>Paris</h2>
-  <p>Paris is the capital of France.</p> 
-</div>
-
-<div id="Tokyo" class="w3-container city" style="display:none">
-  <h2>Tokyo</h2>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
-
 <script>
-function ea(cityName) {
-  var i;
-  var x = document.getElementsByClassName("city");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  document.getElementById(cityName).style.display = "block";  
-}
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
 </script>
 
+<style>
+   body {
+     font-family: Arial, Helvetica, sans-serif;
+   }
+   
+   .flip-card {
+     background-color: transparent;
+     width: 300px;
+     height: 300px;
+     perspective: 1000px;
+   }
+   
+   .flip-card-inner {
+     position: relative;
+     width: 100%;
+     height: 100%;
+     text-align: center;
+     transition: transform 0.6s;
+     transform-style: preserve-3d;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   }
+   
+   .flip-card:hover .flip-card-inner {
+     transform: rotateY(180deg);
+   }
+   
+   .flip-card-front, .flip-card-back {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     -webkit-backface-visibility: hidden;
+     backface-visibility: hidden;
+   }
+   
+   .flip-card-front {
+     background-color: #bbb;
+     color: black;
+   }
+   
+   .flip-card-back {
+     background-color: #2980b9;
+     color: white;
+     transform: rotateY(180deg);
+   }
+   </style>
+
+<h1>Card Flip with Text</h1>
+<h3>Hover over the image below:</h3>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="img/book.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Author </h1> 
+      <p>Subject</p> 
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div id="foot"></div>
+<script>
+$(function(){
+$("#foot").load("foot.html");
+});
+</script>
 </body>
 </html>
-
-
--->
