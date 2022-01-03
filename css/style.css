@@ -16,9 +16,9 @@
   .logo-img{
     display: flex;
     max-height: 150px;
-    
     padding-left: 20%;
     padding-right: 20%;
+    width: -webkit-fill-available;
   }
   .topnav {
     overflow: hidden;
