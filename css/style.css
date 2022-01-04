@@ -305,27 +305,95 @@ text-decoration: none;
   font-family: Sans-serif;
   flex-wrap: wrap;
   text-decoration: none;
+  height: fit-content;
+  padding-top: 20px;
 }
-
+ul{
+  list-style-type: none;
+}
 .first{
   width: 300px;
   display: flex;
-  align-content: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   align-items: center;
+  padding-top: 20px;
+}
+.college{
+  padding-top: 40px;
+}
+.college p{
+  padding-bottom: 20px;
+}
+.social-links{
+  padding-top: 20px;
 }
 a {
-  color: #0060B6;
+  color: white;
   text-decoration: none;
 }
-
 a:hover {
   color:#00A0C6; 
   text-decoration:none; 
   cursor:pointer;  
 }
+.second{
+  width: 300px;
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  list-style-type: none;
+  padding-top: 20px;
+}
+.departments{
+  padding-bottom: 20px;
+}
+.third{
+  width: 300px;
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  list-style-type: none;
+  padding-top: 20px;
+}
+.route-btn{
+  padding: 8px 20px;
+  margin: 7px 3px;
+  border: 2px solid white;
+  border-radius: 8px;
+  background: none;
+  width: fit-content;
+  color: white;
+  cursor: pointer;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.imp-links{
+  padding-bottom: 20px;
+}
+.fourth{
+  width: 300px;
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  list-style-type: none;
+  padding-top: 20px;
+}
+.get-in-touch h3{
+padding-bottom: 20px;
+}
+.timing h3{
+padding-bottom: 20px;
+padding-top: 20px;
 
+  
+}
 
 
 
