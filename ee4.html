@@ -4,20 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Books</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>EE Books</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
-    <nav class="nav">
-        <img class="logo-img" src="../img/logo.png">
-    </nav>
+<div id="nav-placeholder">
+</div>
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+<section class="background firstsection">
+    <div class="box-main">
+        <div class="first-half"><h1>EE Fourth Semester</h1></div>
+        <div class="fl-book">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="img/book.jpg">
+              </div>
+              <div class="flip-card-back">
+                <h1>Author </h1> 
+                <p>Subject</p> 
+                <a href="#"><button>Read Book</button></a>
+              </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="img/book.jpg">
+              </div>
+              <div class="flip-card-back">
+                <h1>Author </h1> 
+                <p>Subject</p> 
+                <a href=""><button>Read Book</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
 
-    <div class="topnav">
-        <a href="http://crssietjhajjar.ac.in/">Home</a>
-        <a href="../index.html">E-Library</a>
-        <a href="../e-paper.html">E-paper</a>
-        <a href="../notes.html">Notes</a>
-        <a href="../upload.html">Upload</a>
+
     </div>
+  
+
+</section>
+<div id="foot"></div>
+<script>
+$(function(){
+$("#foot").load("foot.html");
+});
+</script>
 </body>
 </html>
