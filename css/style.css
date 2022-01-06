@@ -391,12 +391,7 @@ padding-bottom: 20px;
 .timing h3{
 padding-bottom: 20px;
 padding-top: 20px;
-
-  
 }
-
-
-
 
 /*_______________________*/
 .firsthalf{
@@ -730,6 +725,7 @@ padding-top: 20px;
 #econtent tr:hover {background-color: #ddd;}
 #econtent a{
   text-decoration: none;
+  color: #000000;
 }
 #econtent th {
   padding-top: 12px;
