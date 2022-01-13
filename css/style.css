@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
   }
   .nav{
     display: flex;
@@ -121,8 +122,8 @@ button {
 
 /*_______________________*/
 .box-main{
-  padding-top: 50px;
-  padding-bottom: 50px;
+  
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,14 +139,15 @@ button {
   display: flex;
   position: relative;
   text-align: center;
+  align-items: center;
   color: white;
-  align-items: stretch;
+  
   justify-content: center;
   height: 100px;
   font-size: 27px;
 }
 .first-half h1{
-  color: whitesmoke;
+  color: black;
 }
 .firsthalf{
   /*width: 50%;
@@ -297,6 +299,7 @@ text-decoration: none;
 }
 
 /*_______________________*/
+
 .foot{
   display: flex;
   background-color: #030000;
@@ -393,7 +396,7 @@ padding-bottom: 20px;
 padding-top: 20px;
 }
 
-/*_______________________*/
+/*_______________________
 .firsthalf{
   display: flex;
   margin: auto;
@@ -739,7 +742,7 @@ padding-top: 20px;
 /*_______________________*/
 /*_______________________*/
 /*_______________________*/
-/*_______________________*/
+/*_______________________
 
   .books{
   width: 300px;
@@ -775,19 +778,19 @@ padding-top: 20px;
   }
   .books img{
     /* margin: auto; */
-    /* float: left; */
+    /* float: left; 
     width: inherit;
-    /* padding: 10px; */
+    /* padding: 10px; 
     overflow: hidden;
     height: 100px;
-    /* background-size: cover;*/
+    /* background-size: cover;
   }
   .books p{
     color: white;
     justify-content: center;
     display: flex;
   }
-
+  */
 /*_______________________*/
 /*_______________________*/
 /*_______________________*/
@@ -797,13 +800,14 @@ padding-top: 20px;
     margin: auto;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 10px;
 }
 .flip-card {
   background-color: transparent;
   width: 300px;
-  height: 300px;
+  height: 300px;  
   perspective: 1000px;
-  padding: 10px;
+
 }
 
 .flip-card img{
@@ -857,4 +861,70 @@ padding-top: 20px;
   cursor: pointer;
   border: 2px solid;
   border-radius: 10px;
+}
+
+
+/*_______________________*/
+/*_______________________*/
+/*_______________________*/
+/*_______________________*/
+.semtabs{
+  padding: 2%;
+}
+/* Style the tab */
+.tab {
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 1px 25px;
+  transition: 0.3s;
+  font-size: 17px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  border-radius: 50px;
+}
+
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  flex: 25%;
+  padding: 20px;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 9000px) {
+  .tabcontent {
+    flex: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .tab {
+    flex-direction: column;
+  }
 }
