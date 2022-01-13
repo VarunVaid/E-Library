@@ -121,9 +121,7 @@ button {
 }
 
 /*_______________________*/
-.box-main{
-  
-  
+.box-main{  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -134,6 +132,7 @@ button {
   height: 80%;
   flex-wrap: wrap;
 }
+
 .first-half{
   width: 70%;
   display: flex;
@@ -141,13 +140,11 @@ button {
   text-align: center;
   align-items: center;
   color: white;
-  
   justify-content: center;
-  height: 100px;
   font-size: 27px;
 }
 .first-half h1{
-  color: black;
+  color: white;
 }
 .firsthalf{
   /*width: 50%;
@@ -870,6 +867,9 @@ padding-top: 20px;
 /*_______________________*/
 .semtabs{
   padding: 2%;
+  background: rgba(0, 0, 0, 0.7) url(../img/bookback.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
 }
 /* Style the tab */
 .tab {
@@ -882,6 +882,7 @@ padding-top: 20px;
 
 /* Style the buttons inside the tab */
 .tab button {
+  color: white;
   background-color: inherit;
   float: left;
   border: none;
@@ -901,12 +902,12 @@ padding-top: 20px;
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: black;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: black;
 }
 
 /* Style the tab content */
