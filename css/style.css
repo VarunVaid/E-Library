@@ -127,7 +127,7 @@ button {
   align-items: center;
   color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  max-width: 70%;
+  /*max-width: 70%;*/
   margin: auto;
   height: 80%;
   flex-wrap: wrap;
@@ -712,6 +712,7 @@ padding-top: 20px;
   border-collapse: collapse;
   width: 100%;
   border: 5px solid black;
+  margin: 20px;
 }
 
 #econtent td, .econtent th {
@@ -725,7 +726,7 @@ padding-top: 20px;
 #econtent tr:hover {background-color: #ddd;}
 #econtent a{
   text-decoration: none;
-  color: #000000;
+  color: blue;
 }
 #econtent th {
   padding-top: 12px;
